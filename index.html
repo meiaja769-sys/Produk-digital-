@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSET EDITING PRO - Rp 15.000</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);min-height:100vh;color:#fff}
+        .container{max-width:1200px;margin:0 auto;padding:20px}
+        .header{text-align:center;padding:40px 20px;background:rgba(255,255,255,0.05);border-radius:20px;margin-bottom:30px;border:1px solid rgba(255,255,255,0.1)}
+        .header h1{font-size:2.5em;background:linear-gradient(45deg,#00d4ff,#7b2cbf);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:10px}
+        .header p{color:#aaa;font-size:1.1em}
+        .promo-badge{display:inline-block;background:linear-gradient(45deg,#ff006e,#8338ec);padding:10px 25px;border-radius:50px;font-size:1em;margin-top:15px;font-weight:bold}
+        .menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:25px;margin-bottom:40px}
+        .menu-card{background:rgba(255,255,255,0.05);border-radius:20px;padding:30px;border:1px solid rgba(255,255,255,0.1);transition:all 0.3s;position:relative;overflow:hidden}
+        .menu-card:hover{transform:translateY(-10px);box-shadow:0 20px 40px rgba(0,212,255,0.2);border-color:#00d4ff}
+        .card-icon{font-size:3em;margin-bottom:15px}
+        .card-title{font-size:1.5em;margin-bottom:10px;color:#00d4ff}
+        .card-desc{color:#aaa;margin-bottom:20px;line-height:1.6}
+        .card-features{list-style:none;margin-bottom:20px;max-height:250px;overflow-y:auto;font-size:0.95em}
+        .card-features li{padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.05);display:flex;align-items:center;gap:10px}
+        .card-features li::before{content:'✓';color:#00ff88;font-weight:bold}
+        .price-tag{font-size:2.5em;font-weight:bold;color:#00ff88;margin:20px 0;text-align:center}
+        .price-tag .original{font-size:0.4em;color:#ff006e;text-decoration:line-through;margin-left:10px}
+        .btn-order{width:100%;padding:18px;background:linear-gradient(45deg,#00d4ff,#7b2cbf);border:none;border-radius:12px;color:white;font-size:1.2em;font-weight:bold;cursor:pointer;margin-bottom:12px}
+        .btn-copy{width:100%;padding:14px;background:rgba(37,211,102,0.15);border:2px solid #25d366;border-radius:12px;color:#25d366;font-size:1.1em;font-weight:bold;cursor:pointer}
+        .badge{position:absolute;top:20px;right:20px;background:linear-gradient(45deg,#ff006e,#ff4d00);color:white;padding:6px 16px;border-radius:20px;font-size:0.8em;font-weight:bold}
+        .contact-section{text-align:center;padding:40px;background:rgba(0,212,255,0.05);border-radius:20px;border:2px solid rgba(0,212,255,0.3);margin-top:40px}
+        .contact-box{background:rgba(0,0,0,0.3);padding:30px;border-radius:20px;margin:25px 0;border:3px solid #25d366}
+        .contact-number{font-size:2.2em;font-weight:bold;color:#25d366;margin-bottom:10px}
+        .wa-btn{display:inline-block;padding:16px 32px;background:#25d366;color:white;text-decoration:none;border-radius:50px;font-weight:bold;font-size:1.1em;margin:10px}
+        .footer{text-align:center;padding:30px;color:#666;margin-top:40px;border-top:1px solid rgba(255,255,255,0.1)}
+        .toast{position:fixed;bottom:30px;left:50%;transform:translateX(-50%);background:#00ff88;color:#1a1a2e;padding:16px 32px;border-radius:50px;font-weight:bold;display:none;z-index:1000}
+        @media(max-width:768px){.header h1{font-size:1.8em}.menu-grid{grid-template-columns:1fr}}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📦 ASSET EDITING PRO</h1>
+            <p>Bundle Lengkap Aset Digital untuk Content Creator</p>
+            <div class="promo-badge">🔥 PROMO Rp 15.000 🔥</div>
+        </div>
+        
+        <div class="menu-grid">
+            <!-- Produk 1 -->
+            <div class="menu-card">
+                <span class="badge">BEST SELLER</span>
+                <div class="card-icon">📚</div>
+                <h3 class="card-title">7.000+ E-Book Cara Cuan</h3>
+                <p class="card-desc">Koleksi lengkap strategi monetisasi digital dan bisnis online.</p>
+                <ul class="card-features">
+                    <li>💰 Digital Marketing (500+ file)</li>
+                    <li>📱 Affiliate Marketing (400+ file)</li>
+                    <li>🛒 E-commerce Guide (600+ file)</li>
+                    <li>📈 Trading Crypto (800+ file)</li>
+                    <li>🎬 Content Creator (700+ file)</li>
+                    <li>✍️ Copywriting (500+ file)</li>
+                    <li>🤖 AI & Automation (400+ file)</li>
+                    <li>📊 Social Media (900+ file)</li>
+                    <li>🎨 Desain Grafis (600+ file)</li>
+                    <li>📚 Self Development (1.600+ file)</li>
+                    <li>🎯 SEO & Blogging (300+ file)</li>
+                    <li>💼 Freelance (400+ file)</li>
+                    <li>🏠 Property (300+ file)</li>
+                    <li>📧 Email Marketing (200+ file)</li>
+                    <li>🚀 Startup (400+ file)</li>
+                </ul>
+                <div class="price-tag">Rp 15.000<span class="original">Rp 500.000</span></div>
+                <button class="btn-order" onclick="order('Ebook 7000+')">🛒 Beli Sekarang</button>
+                <button class="btn-copy" onclick="copyWA()">📋 Salin Nomor WA</button>
+            </div>
+            
+            <!-- Produk 2 -->
+            <div class="menu-card">
+                <div class="card-icon">🎨</div>
+                <h3 class="card-title">Background Premium HD</h3>
+                <p class="card-desc">Ribuan background 4K untuk editing foto dan video.</p>
+                <ul class="card-features">
+                    <li>🌈 Abstract 4K (500+ file)</li>
+                    <li>🌅 Nature HD (400+ file)</li>
+                    <li>📸 Studio Portrait (300+ file)</li>
+                    <li>⚡ Neon Theme (200+ file)</li>
+                    <li>🎭 Minimalist (400+ file)</li>
+                    <li>🎬 Green Screen (200+ file)</li>
+                    <li>🏙️ Urban City (300+ file)</li>
+                    <li>🌌 Galaxy Space (150+ file)</li>
+                    <li>🔥 Fire Effect (100+ file)</li>
+                    <li>💧 Water Liquid (150+ file)</li>
+                    <li>🎄 Seasonal (200+ file)</li>
+                    <li>✨ Bokeh Light (300+ file)</li>
+                    <li>🧱 Texture (400+ file)</li>
+                    <li>🎮 Gaming (200+ file)</li>
+                    <li>💼 Business (200+ file)</li>
+                </ul>
+                <div class="price-tag">Rp 15.000<span class="original">Rp 150.000</span></div>
+                <button class="btn-order" onclick="order('Background HD')">🛒 Beli Sekarang</button>
+                <button class="btn-copy" onclick="copyWA()">📋 Salin Nomor WA</button>
+            </div>
+            
+            <!-- Produk 3 -->
+            <div class="menu-card">
+                <span class="badge" style="background:linear-gradient(45deg,#00ff88,#00d4ff);color:#1a1a2e">HEMAT 90%</span>
+                <div class="card-icon">🎯</div>
+                <h3 class="card-title">SUPER BUNDLE</h3>
+                <p class="card-desc">Paket lengkap semua produk + bonus eksklusif.</p>
+                <ul class="card-features">
+                    <li>✅ 7.000+ E-Book Lengkap</li>
+                    <li>✅ 2.000+ Background HD</li>
+                    <li>🎁 500+ Template Canva</li>
+                    <li>🎁 50+ Preset Lightroom</li>
+                    <li>🎁 1.000+ Sound Effect</li>
+                    <li>🎁 200+ Font Premium</li>
+                    <li>🎁 300+ Icon Vector</li>
+                    <li>🎁 100+ Mockup PSD</li>
+                    <li>🎁 50+ LUTs Grading</li>
+                    <li>🎁 200+ Texture Overlay</li>
+                    <li>🎁 Transisi Video</li>
+                    <li>🎁 Title Animation</li>
+                    <li>✅ Update Gratis Lifetime</li>
+                    <li>✅ Support 24/7</li>
+                    <li>✅ Garansi 100%</li>
+                </ul>
+                <div class="price-tag">Rp 15.000<span class="original">Rp 650.000</span></div>
+                <button class="btn-order" onclick="order('SUPER BUNDLE')">🛒 Beli Paket Bundle</button>
+                <button class="btn-copy" onclick="copyWA()">📋 Salin Nomor WA</button>
+            </div>
+        </div>
+        
+        <div class="contact-section">
+            <h2>📞 Pesan Sekarang</h2>
+            <p>Promo terbatas! Harga normal akan kembali soon.</p>
+            <div class="contact-box">
+                <div style="font-size:3em;margin-bottom:15px">💬</div>
+                <div class="contact-number">0887-4371-29357</div>
+                <p style="color:#aaa;margin-bottom:20px">WhatsApp Business</p>
+                <button class="wa-btn" onclick="copyWA()">📋 Salin & Chat WA</button>
+            </div>
+            <p style="color:#666;font-size:0.9em">💳 Pembayaran: Transfer Bank, DANA, GoPay, OVO, LinkAja</p>
+        </div>
+        
+        <div class="footer">
+            <p>© 2024 Asset Editing Pro. File dikirim via Google Drive (Permanent)</p>
+            <p style="margin-top:10px;font-size:0.9em">Update gratis seumur hidup untuk pembeli bundle</p>
+        </div>
+    </div>
+    
+    <div class="toast" id="toast">✅ Nomor WA disalin!</div>
+    
+    <script>
+        // GANTI NOMOR INI DENGAN NOMOR WA KAMU
+        const NOMOR_WA = '62887437129357';
+        
+        function copyWA() {
+            const el = document.createElement('textarea');
+            el.value = NOMOR_WA;
+            document.body.appendChild(el);
+            el.select();
+            document.execCommand('copy');
+            document.body.removeChild(el);
+            
+            const toast = document.getElementById('toast');
+            toast.style.display = 'block';
+            setTimeout(() => toast.style.display = 'none', 3000);
+            
+            // Buka WhatsApp (opsional)
+            setTimeout(() => {
+                window.open('https://wa.me/' + 62887437129357 + '?text=Halo+kak,+saya+mau+order+Asset+Editing+Pro', '_blank');
+            }, 500);
+        }
+        
+        function order(produk) {
+            const pesan = 'Halo kak, saya mau order ' + produk + ' (Rp 15.000)';
+            const el = document.createElement('textarea');
+            el.value = NOMOR_WA;
+            document.body.appendChild(el);
+            el.select();
+            document.execCommand('copy');
+            document.body.removeChild(el);
+            
+            alert('📋 Nomor WA disalin: ' + NOMOR_WA 62887437129357 '\\n\\nPesan yang bisa dikirim:\\n\"' + pesan + '\Halo"');
+        }
+    </script>
+</body>
+</html>
